@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shareer.iml" filepath="$PROJECT_DIR$/.idea/modules/Shareer.iml" group="Shareer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Shareer/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videocompressor/videocompressor.iml" filepath="$PROJECT_DIR$/.idea/modules/videocompressor/videocompressor.iml" group="Shareer/videocompressor" />
+    </modules>
+  </component>
+</project>

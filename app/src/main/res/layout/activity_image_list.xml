@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ImageHandlerPages.ImageList">
+
+    <EditText
+        android:id="@+id/folderName"
+        android:hint="Folder Key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/searchImage"
+        android:layout_below="@id/folderName"
+        android:layout_width="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button_blue"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/searchVideo"
+        android:layout_below="@id/searchImage"
+        android:layout_width="wrap_content"
+        android:text="Search Videos"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button_blue"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_below="@id/searchVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
